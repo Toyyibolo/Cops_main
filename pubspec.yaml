@@ -1,0 +1,91 @@
+name: ride
+description: SmartPay is an imaginary app for financial services.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 
+  fluttertoast: 
+  flutter_hooks: 
+  hooks_riverpod: 
+  flutter_svg: 
+  pin_input_text_field: 
+  timer_count_down: 
+  dio: 
+  flutter_secure_storage: 
+  get_it: 
+  device_info_plus: 
+  dartz: 
+  shared_preferences: 
+  local_auth: 
+  smooth_page_indicator: 
+  email_auth: 
+  email_validator: 
+  
+  lite_rolling_switch: 
+  change_app_package_name: 
+   
+  nearby_connections: 
+  path_provider: 
+  image_picker: 
+  location: 
+  permission_handler: 
+  flutter_spinkit: 
+  geolocator: 
+  geolocator_apple: 
+
+  
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
